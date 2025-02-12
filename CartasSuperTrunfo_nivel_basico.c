@@ -42,7 +42,7 @@ int main() {
     printf("Otimo, agora temos todos os dados necessarios para comecar a cadastrar sua carta");
     
     //Coletando a população em milhares de pessoas
-    printf("\nInsira aqui a POPULACAO da sua cidade por milhar e habitantes\n");
+    printf("\nInsira aqui a POPULACAO da sua cidade por milhares de habitantes\n");
     scanf("%d", &populacao);
     
     //Coletando a AREA
