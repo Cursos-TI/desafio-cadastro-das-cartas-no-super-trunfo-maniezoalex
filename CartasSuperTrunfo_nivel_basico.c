@@ -22,13 +22,13 @@ int main() {
    
     //Coletar primeiro o estado
     printf("Insira o ESTADO como uma letra de A a H. Ele é onde suas cidades estarao localizadas:\n");
-    scanf ("%s", estado_1);
+    scanf (" %[^\n]", estado_1);
     printf("\nMuito bem!\nLembrando que todas as cidades de %s deverao ter a mesma letra inicial no codigo.\n",estado_1);
     
     //Coletando a cidade
     printf("Agora que já temos o seu estado é hora de definir a CIDADE!\n");
     printf("Insira a seguir o nome da sua cidade:\n");
-    scanf("%s", cidade_1);
+    scanf(" %20[^\n]", cidade_1);
     printf("Muito bem, você inseriu a cidade de %s", cidade_1);
    
     //Coletando o código
@@ -69,7 +69,7 @@ int main() {
     
     //Coletando a cidade
     printf("Insira o nome da sua cidade:\n");
-    scanf("%s", cidade_2);
+    scanf(" %20[^\n]", cidade_2);
     printf("Muito bem, você inseriu a cidade de %s", cidade_2);
    
     //Coletando o código
@@ -104,9 +104,9 @@ int main() {
     printf("\nEstado: %s", estado_1);
     printf("\nCidade: %s", cidade_1);
     printf("\nCódigo: %s", codigo_1);
-    printf("\nPopulacao: %d", populacao_1);
-    printf("\nNumero de pontos turisticos: %d", numero_pontos_turisticos_1);
-    printf("\nPIB: %.2f", PIB_1);
+    printf("\nPopulacao: %d de pessoas", populacao_1);
+    printf("\nNumero de pontos turisticos: %d pontos turisticos", numero_pontos_turisticos_1);
+    printf("\nPIB: %.2f bilhões de reais", PIB_1);
     printf("\nArea em Km²: %.2fKm²", area_em_km_1);
 
     printf("\n\nCarta 2:");
@@ -115,7 +115,7 @@ int main() {
     printf("\nCódigo: %s", codigo_2);
     printf("\nPopulacao: %d", populacao_2);
     printf("\nNumero de pontos turisticos: %d", numero_pontos_turisticos_2);
-    printf("\nPIB: %.2f", PIB_2);
+    printf("\nPIB: %.2f bilhões de reais", PIB_2);
     printf("\nArea em Km²: %.2fKm²", area_em_km_2);   
     // fim do código
     return 0;    
