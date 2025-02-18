@@ -116,7 +116,7 @@ int main() {
     printf("\nPopulacao: %d", populacao_2);
     printf("\nNumero de pontos turisticos: %d", numero_pontos_turisticos_2);
     printf("\nPIB: %.2f bilhões de reais", PIB_2);
-    printf("\nArea em Km²: %.2fKm²", area_em_km_2);   
+    printf("\nArea em Km²: %.2fKm²\n", area_em_km_2);   
     // fim do código
     return 0;    
 }
