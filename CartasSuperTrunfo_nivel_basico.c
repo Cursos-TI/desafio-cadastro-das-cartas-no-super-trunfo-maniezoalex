@@ -60,7 +60,7 @@ int main() {
     printf("\nInsira aqui o NUMERO DE PONTOS TURISTICOS da sua cidade:");
     scanf("%d", &numero_pontos_turisticos_1);
 
-    printf("\nMuito bem! Você inseriu os dados necessários para uma carta. Agora vamos cadastrar mais uma para que você possa ter um jogo?")
+    printf("\nMuito bem! Você inseriu os dados necessários para uma carta. Agora vamos cadastrar mais uma para que você possa ter um jogo?");
     
     //Coletando os dados para a carta 2
     printf("Insira o ESTADO como uma letra de A a H:\n");
