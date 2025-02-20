@@ -48,7 +48,7 @@ int main() {
     
     //Coletando a população em milhares de pessoas
     printf("\nInsira aqui a POPULACAO da sua cidade\n");
-    scanf("%ld", &populacao_1);
+    scanf("%lu", &populacao_1);
     
     //Coletando a AREA
     printf("\nInsira aqui a AREA EM KM² da sua cidade\n");
@@ -88,7 +88,7 @@ int main() {
     
     //Coletando a população em milhares de pessoas
     printf("\nInsira aqui a POPULACAO da sua cidade\n");
-    scanf("%ld", &populacao_2);
+    scanf("%lu", &populacao_2);
     
     //Coletando a AREA
     printf("\nInsira aqui a AREA EM KM² da sua cidade\n");
@@ -122,7 +122,7 @@ int main() {
     printf("\nPIB: %.2f bilhões de reais", PIB_1);
     printf("\nArea em Km²: %.2fKm²", area_em_km_1);
     printf("\nDensidade populacional: %.2f hab/KM²", densidade_populacional_1);
-    printf("\nPIB per capita: %f reais", PIB_per_capita_1);
+    printf("\nPIB per capita: %.4f reais", PIB_per_capita_1);
     printf("\nO valor do SUPER PODER da Carta 1 é %ld", super_poder_1);
     
 
@@ -135,7 +135,7 @@ int main() {
     printf("\nPIB: %.2f bilhões de reais", PIB_2);
     printf("\nArea em Km²: %.2fKm²", area_em_km_2);
     printf("\nDensidade populacional: %.2f hab/KM²", densidade_populacional_2);
-    printf("\nPIB per capita: %Bf reais", PIB_per_capita_2);
+    printf("\nPIB per capita: %.4f reais", PIB_per_capita_2);
     printf("\nO valor do SUPER PODER da Carta 2 é %ld", super_poder_2);
     
     //Explicando o processo de comparação
